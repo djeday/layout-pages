@@ -15,11 +15,11 @@
     <h1>Sign in</h1>
     <form method="POST">
         <div class="form-group">
-            <span class="label">Логин</span>
+            <span class="label login-label">Логин</span>
             <input class="input-field" type="text" name="login">
         </div>
         <div class="form-group">
-            <span class="label">Пароль</span>
+            <span class="label login-label">Пароль</span>
             <input class="input-field" name="password" type="password">
         </div>
         <div class="submit-button">

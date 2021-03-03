@@ -1,0 +1,21 @@
+@import url("style.css");
+
+header {
+    background-color: transparent;
+}
+
+#main-container {
+    background-color: #ebebeb;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.input-field {
+    width: 50%;
+}
+
+.submit-button {
+    margin-top: 30px;
+}
+
+.button { padding: 16px; }
