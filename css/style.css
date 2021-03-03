@@ -59,7 +59,8 @@ BUTTON
     outline: none;
     padding: 12px;
 }
-.button:hover {background-color: #950314
+.button:hover {
+    background-color: #950314;
 }
 
 .button:active {
@@ -78,7 +79,15 @@ BUTTON
 .label {
     text-align: left;
     display: inline-block;
+}
+
+.login-label {
     width: 60px;
+}
+
+.register-label {
+    width: 250px;
+    font-weight: bold;
 }
 
 /**
