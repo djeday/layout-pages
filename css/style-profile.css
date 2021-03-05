@@ -1,0 +1,45 @@
+@import url("style.css");
+
+header {
+    background-color: transparent;
+}
+
+main {
+    background-color: #ebebeb;
+    padding: 20px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+section {
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 10px 24px 24px 24px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+p.section-title {
+    font-size: 24px;
+    text-align: left;
+}
+
+.profile-group {
+    padding: 24px 0 24px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-item-name {
+    float: left;
+    vertical-align: top;
+    color: #555555;
+}
+
+.profile-item-value {
+    float: right;
+}
+
+footer {
+    margin-top: 50px;
+}
