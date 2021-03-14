@@ -10,11 +10,6 @@ body {
 HEADER
 */
 
-header {
-    background-color: #c8c989;
-    border-radius: 16px 16px 0 0;
-}
-
 header, #main-container {
     width: 600px;
     padding: 10px;
@@ -97,15 +92,14 @@ footer {
     margin-top: 25px;
 }
 
-.nav-header {
-    background-color: transparent;
-}
 
+/**
+NAVIGATION
+*/
 ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: left;
 }
 
 .nav-item {

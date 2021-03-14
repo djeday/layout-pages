@@ -6,11 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-    <div class="header-img">
-        <img src="images/welcome.svg" alt="site logo"/>
-    </div>
-</header>
+<?php include_once('template/components/header.php');?>
+<?php include_once('template/components/nav.php');?>
 <div id="main-container">
     <h1>Sign in</h1>
     <form method="POST">
@@ -27,9 +24,6 @@
         </div>
     </form>
 </div>
-<footer>
-    &copy; Гвоздецкий Вячеслав
-</footer>
-
+<?php include_once('template/components/footer.php');?>
 </body>
 </html>

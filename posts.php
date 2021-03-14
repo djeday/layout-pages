@@ -6,11 +6,8 @@
     <link rel="stylesheet" href="css/style-posts.css">
 </head>
 <body>
-<header>
-    <div class="header-img">
-        <img src="images/logo_welcome.png" alt="site logo"/>
-    </div>
-</header>
+<?php include_once('template/components/header.php');?>
+<?php include_once('template/components/nav.php');?>
 <main>
     <h1 class="main-title">Список статей</h1>
     <div class="posts-list">
@@ -46,9 +43,6 @@
         </ul>
     </div>
 </main>
-<footer>
-    &copy; Гвоздецкий Вячеслав
-</footer>
-
+<?php include_once('template/components/footer.php');?>
 </body>
 </html>

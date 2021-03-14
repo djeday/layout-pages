@@ -6,11 +6,8 @@
     <link rel="stylesheet" href="css/style-profile.css">
 </head>
 <body>
-<header>
-    <div class="header-img">
-        <img src="images/logo_welcome.png" alt="site logo"/>
-    </div>
-</header>
+<?php include_once('template/components/header.php');?>
+<?php include_once('template/components/nav.php');?>
 <main>
     <h1>Профиль пользователя</h1>
     <section>
@@ -44,9 +41,6 @@
         </div>
     </section>
 </main>
-<footer>
-    &copy; Гвоздецкий Вячеслав
-</footer>
-
+<?php include_once('template/components/footer.php');?>
 </body>
 </html>
