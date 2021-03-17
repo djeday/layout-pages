@@ -1,4 +1,4 @@
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <title>Profile page</title>
@@ -6,8 +6,11 @@
     <link rel="stylesheet" href="css/style-profile.css">
 </head>
 <body>
-<?php include_once('template/components/header.php');?>
-<?php include_once('template/components/nav.php');?>
+<?php
+
+include('template/components/header.php');
+include('template/components/nav.php');
+?>
 <main>
     <h1>Профиль пользователя</h1>
     <section>
@@ -41,6 +44,6 @@
         </div>
     </section>
 </main>
-<?php include_once('template/components/footer.php');?>
+<?php include('template/components/footer.php');?>
 </body>
 </html>
