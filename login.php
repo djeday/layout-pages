@@ -1,4 +1,4 @@
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <title>Login page</title>
@@ -6,8 +6,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<?php include_once('template/components/header.php');?>
-<?php include_once('template/components/nav.php');?>
+<?php
+
+include('template/components/header.php');
+include('template/components/nav.php');
+?>
 <div id="main-container">
     <h1>Sign in</h1>
     <form method="POST">
@@ -24,6 +27,6 @@
         </div>
     </form>
 </div>
-<?php include_once('template/components/footer.php');?>
+<?php include('template/components/footer.php');?>
 </body>
 </html>
